@@ -66,4 +66,6 @@ async def howareu(ctx):
     await ctx.send("Mám se fajne", "Jde to", "Bylo líp", "mega fajn!", "ja neviem už :D")
 
 
-client.run("ODk0OTgzMDY4MjExOTAwNDg3.YVx77w.kkHHUwBpApEW-PmE08-6FDhO6Ro")
+tokenF = open("token.txt", "r")
+token = tokenF.readline()
+client.run(token)
