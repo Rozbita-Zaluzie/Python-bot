@@ -51,7 +51,6 @@ async def join(ctx):
 async def leave(ctx):
     await ctx.voice_client.disconnect()
 
-
 #! .members
 @client.command()
 async def members(ctx):
@@ -64,8 +63,8 @@ async def members(ctx):
 @commands.has_any_role("Majitel", "Admin")
 async def howareu(ctx):
     await ctx.send("Mám se fajne", "Jde to", "Bylo líp", "mega fajn!", "ja neviem už :D")
-
-
+    
+    
 tokenF = open("token.txt", "r")
 token = tokenF.readline()
 client.run(token)
