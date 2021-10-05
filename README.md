@@ -1,3 +1,3 @@
 # Python-bot
 dva mamrdi dělají bota yes
-dffdsdsdsds
+dffdsdsdsds si kokot
